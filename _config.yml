@@ -16,9 +16,7 @@
 title: My journey to type-safe shores
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is purely a personal blog for me to take notes - in order to remember my journey to type-safe shores.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://alaendle.github.io # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -26,10 +24,22 @@ github_username:  alaendle
 
 # Build settings
 markdown: kramdown
-theme: minima
-future: true
+remote_theme: vfvong/jekyll-theme-tao
+
+author:
+  name: Andreas Ländle
+  url: https://github.com/alaendle
+  avatar: https://avatars.githubusercontent.com/u/969523
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+categories_path: /categories/
+tags_path: /tags/
+
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
