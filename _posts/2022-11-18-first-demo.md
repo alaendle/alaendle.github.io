@@ -3,7 +3,7 @@ layout: post
 title: "Demo blog post"
 subtitle: "Hello from here"
 tags: [Haskell]
-date: 2025-12-20
+date: 3025-12-20
 ---
 
 Even if this is a somehow artificial problem - what is the *best* way to sum different return types?
